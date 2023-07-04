@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: sekarfeb/employeeimg:latest
+          image: sekarfeb/employee_reactapp:latest
           ports:
             - containerPort: 3000
 ---
