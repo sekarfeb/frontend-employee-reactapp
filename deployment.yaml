@@ -2,16 +2,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: react-app
+  name: frontend-app-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: react-app
+      app: frontend-app
   template:
     metadata:
       labels:
-        app: react-app
+        app: frontend-app
     spec:
       containers:
         - name: app
@@ -23,10 +23,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: app-service
+  name: frontend-app-service
 spec:
   selector:
-    app: react-app 
+    app: frontend-app 
   ports:
     - protocol: TCP
       port: 80
