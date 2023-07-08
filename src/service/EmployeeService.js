@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://10.128.0.28:8080/employee";
+const BASE_URL = "http://backend-app-service.default.svc.cluster.local/employee";
 class EmployeeService{
 
     //**Method to get all employee from our api or database */
