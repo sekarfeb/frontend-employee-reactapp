@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: sekarfeb/employee_reactapp:latest
+          image: sekarfeb/frontend-employee-app:latest
           ports:
             - containerPort: 80
 ---
