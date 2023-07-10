@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://jsonplaceholder.typicode.com/";
+const BASE_URL = "http://34.30.180.57:8080/employee";
 class EmployeeService{
 
     //**Method to get all employee from our api or database */
